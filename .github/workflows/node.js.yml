@@ -1,3 +1,4 @@
+# https://github.com/marketplace/actions/cypress-io
 name: Node.js CI
 
 on:
@@ -7,39 +8,17 @@ on:
   #   branches: [ "main" ]
 
 jobs:
-  # build:
-  #   runs-on: ubuntu-latest
-  #   strategy:
-  #     matrix:
-  #       node-version: [18.x, 20.x, 22.x]
-
-  #   steps:
-  #   - uses: actions/checkout@v4
-  #   - name: Use Node.js ${{ matrix.node-version }}
-  #     uses: actions/setup-node@v4
-  #     with:
-  #       node-version: ${{ matrix.node-version }}
-  #       cache: 'npm'
-  #       cache-dependency-path: package-lock.json
-  #   - run: npm ci
-  #   - run: npm run build --if-present
-  #   - run: npm test
-
   cypress-run:
-    runs-on: ubuntu-latest
+    name: Cypress run
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18.x
-          cache: 'npm'
-          cache-dependency-path: package-lock.json
-      - run: npm ci
+
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          build: npm run build
-          start: npm start  # Asegúrate de que este comando inicie correctamente tu aplicación
-          spec: 'cypress/e2e/2-advanced-examples/files.cy.js,cypress/e2e/2-advanced-examples/location.cy.js'
+          spec: |
+            cypress\e2e\2-advanced-examples\utilities.cy.js
+            cypress\e2e\2-advanced-examples\waiting.cy.js
+            cypress\e2e\2-advanced-examples\window.cy.js
