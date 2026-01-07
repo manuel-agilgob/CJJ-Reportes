@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Pruebas - Producción - 7 de enero de 2026 04:13:36 p.m.</title>
+    <style>
+  h1 {
+    font-size: 2.4em;
+    margin: .67em auto;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  ol {
+    counter-reset: li;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+
+  .rectangle-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;
+  }
+
+  .rectangle-list a:hover{
+    background: #eee;
+  }
+
+  .rectangle-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #fa8072;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .rectangle-list a:after{
+    position: absolute;
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;
+  }
+
+  .rectangle-list a:hover:after{
+    left: -.5em;
+    border-left-color: #fa8072;
+  }
+
+/* Test result colors */
+.rectangle-list a[href*="pass-"]:before {
+    background: #4caf50 !important; /* Green for passed tests */
+}
+
+.rectangle-list a[href*="pass-"]:hover:after {
+    border-left-color: #4caf50 !important;
+}
+
+.rectangle-list a[href*="fail-"]:before {
+    background: #f44336 !important; /* Red for failed tests */
+}
+
+.rectangle-list a[href*="fail-"]:hover:after {
+    border-left-color: #f44336 !important;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Reporte de Pruebas - Producción - 7 de enero de 2026 04:13:36 p.m.</h1>
+    <ol class="rectangle-list">
+        <li><a href="Audiencia-Boletin.html"> Audiencia - Boletin</a></li>
+        <li><a href="Audiencia.html"> Audiencia</a></li>
+        <li><a href="Certificacion-Boletin.html"> Certificacion - Boletin</a></li>
+        <li><a href="Certificacion.html"> Certificacion</a></li>
+        <li><a href="Convenio-Boletin.html"> Convenio - Boletin</a></li>
+        <li><a href="Convenio.html"> Convenio</a></li>
+        <li><a href="GenericDoc-Acta-Diligencia.html"> GenericDoc - Acta - Diligencia</a></li>
+        <li><a href="GenericDoc-Citatorio.html"> GenericDoc - Citatorio</a></li>
+        <li><a href="GenericDoc-Constancia-Audiencia.html"> GenericDoc - Constancia - Audiencia</a></li>
+        <li><a href="GenericDoc-Constancia.html"> GenericDoc - Constancia</a></li>
+        <li><a href="GenericDoc-Demanda-Amparo.html"> GenericDoc - Demanda - Amparo</a></li>
+        <li><a href="GenericDoc-Oficio.html"> GenericDoc - Oficio</a></li>
+        <li><a href="Promocion-Anexos.html"> Promocion - Anexos</a></li>
+        <li><a href="Sentencia-Priv-Definitiva.html"> Sentencia - Priv - Definitiva</a></li>
+        <li><a href="Sentencia-Priv-Interlocutoria-Anexos.html"> Sentencia - Priv - Interlocutoria - Anexos</a></li>
+        <li><a href="Sentencia-Priv-Interlocutoria.html"> Sentencia - Priv - Interlocutoria</a></li>
+        <li><a href="Sentencia-Publica-Boletin.html"> Sentencia - Publica - Boletin</a></li>
+        <li><a href="Sentencia-Publica.html"> Sentencia - Publica</a></li>
+        <li><a href="Sentencia-Segunda-Priv-Instancia.html"> Sentencia - Segunda - Priv - Instancia</a></li>
+        <li><a href="TimeCHange-After-Agreement.html"> TimeCHange - After - Agreement</a></li>
+        <li><a href="TimeCHange-After-Agreement_001.html"> TimeCHange - After - Agreement 001</a></li>
+        <li><a href="TimeCHange-Before-Agreement.html"> TimeCHange - Before - Agreement</a></li>
+        <li><a href="TimeCHange-Before-Agreement_001.html"> TimeCHange - Before - Agreement 001</a></li>
+        <li><a href="fail-2026-01-07T124232-0600-Smoke.html">✗ 2026 - 01 - 07T124232 - 0600 - Smoke</a></li>
+        <li><a href="fail-2026-01-07T124328-0600-Smoke.html">✗ 2026 - 01 - 07T124328 - 0600 - Smoke</a></li>
+        <li><a href="fail-2026-01-07T124430-0600-001_DescargaManualUsuarioTramite.html">✗ 2026 - 01 - 07T124430 - 0600 - 001 DescargaManualUsuarioTramite</a></li>
+        <li><a href="fail-2026-01-07T134955-0600-001_Indicadores_DemandaInicial.html">✗ 2026 - 01 - 07T134955 - 0600 - 001 Indicadores DemandaInicial</a></li>
+        <li><a href="fail-2026-01-07T135321-0600-001_Indicadores_DemandaInicial.html">✗ 2026 - 01 - 07T135321 - 0600 - 001 Indicadores DemandaInicial</a></li>
+        <li><a href="fail-2026-01-07T135551-0600-002_Indicadores_SentenciaDefinitiva.html">✗ 2026 - 01 - 07T135551 - 0600 - 002 Indicadores SentenciaDefinitiva</a></li>
+        <li><a href="fail-2026-01-07T135750-0600-003_Indicadores_SentenciaInterlocutoria.html">✗ 2026 - 01 - 07T135750 - 0600 - 003 Indicadores SentenciaInterlocutoria</a></li>
+        <li><a href="fail-2026-01-07T135905-0600-004_Indicadores_RepresentacionPartes.html">✗ 2026 - 01 - 07T135905 - 0600 - 004 Indicadores RepresentacionPartes</a></li>
+        <li><a href="fail-2026-01-07T140930-0600-005_Indicadores_Evidences.html">✗ 2026 - 01 - 07T140930 - 0600 - 005 Indicadores Evidences</a></li>
+        <li><a href="fail-2026-01-07T141603-0600-EXP_AB_Interno.html">✗ 2026 - 01 - 07T141603 - 0600 - EXP AB Interno</a></li>
+        <li><a href="fail-2026-01-07T142104-0600-EXPxREC_RecibirExpedienteTurnado.html">✗ 2026 - 01 - 07T142104 - 0600 - EXPxREC RecibirExpedienteTurnado</a></li>
+        <li><a href="fail-2026-01-07T142741-0600-EXPxREC_RecibirExpedienteTurnado.html">✗ 2026 - 01 - 07T142741 - 0600 - EXPxREC RecibirExpedienteTurnado</a></li>
+        <li><a href="fail-2026-01-07T143015-0600-EXPxREC_RecibirExpedienteTurnado.html">✗ 2026 - 01 - 07T143015 - 0600 - EXPxREC RecibirExpedienteTurnado</a></li>
+        <li><a href="fail-2026-01-07T155004-0600-Sentencia-Priv-Interlocutoria.html">✗ 2026 - 01 - 07T155004 - 0600 - Sentencia - Priv - Interlocutoria</a></li>
+        <li><a href="fail-2026-01-07T155152-0600-EXP_DOC_DaPermisoCiudadano.html">✗ 2026 - 01 - 07T155152 - 0600 - EXP DOC DaPermisoCiudadano</a></li>
+        <li><a href="fail-2026-01-07T155554-0600-GenericDoc-Oficio.html">✗ 2026 - 01 - 07T155554 - 0600 - GenericDoc - Oficio</a></li>
+        <li><a href="fail-2026-01-07T155710-0600-GenericDoc-Acta-Diligencia.html">✗ 2026 - 01 - 07T155710 - 0600 - GenericDoc - Acta - Diligencia</a></li>
+        <li><a href="fail-2026-01-07T155827-0600-GenericDoc-Demanda-Amparo.html">✗ 2026 - 01 - 07T155827 - 0600 - GenericDoc - Demanda - Amparo</a></li>
+        <li><a href="fail-2026-01-07T160005-0600-GenericDoc-Citatorio.html">✗ 2026 - 01 - 07T160005 - 0600 - GenericDoc - Citatorio</a></li>
+        <li><a href="fail-2026-01-07T160121-0600-GenericDoc-Constancia.html">✗ 2026 - 01 - 07T160121 - 0600 - GenericDoc - Constancia</a></li>
+        <li><a href="fail-2026-01-07T160243-0600-GenericDoc-Constancia-Audiencia.html">✗ 2026 - 01 - 07T160243 - 0600 - GenericDoc - Constancia - Audiencia</a></li>
+        <li><a href="fail-2026-01-07T160352-0600-EXP_DOC_DaPermisoCiudadano.html">✗ 2026 - 01 - 07T160352 - 0600 - EXP DOC DaPermisoCiudadano</a></li>
+        <li><a href="fail-2026-01-07T160543-0600-Convenio.html">✗ 2026 - 01 - 07T160543 - 0600 - Convenio</a></li>
+        <li><a href="fail-2026-01-07T160643-0600-Convenio-Boletin.html">✗ 2026 - 01 - 07T160643 - 0600 - Convenio - Boletin</a></li>
+        <li><a href="fail-2026-01-07T160746-0600-Audiencia.html">✗ 2026 - 01 - 07T160746 - 0600 - Audiencia</a></li>
+        <li><a href="fail-2026-01-07T160845-0600-Audiencia-Boletin.html">✗ 2026 - 01 - 07T160845 - 0600 - Audiencia - Boletin</a></li>
+        <li><a href="fail-2026-01-07T160943-0600-Certificacion.html">✗ 2026 - 01 - 07T160943 - 0600 - Certificacion</a></li>
+        <li><a href="fail-2026-01-07T161036-0600-Certificacion-Boletin.html">✗ 2026 - 01 - 07T161036 - 0600 - Certificacion - Boletin</a></li>
+        <li><a href="fail-2026-01-07T161052-0600-Sentencia-Priv-Interlocutoria.html">✗ 2026 - 01 - 07T161052 - 0600 - Sentencia - Priv - Interlocutoria</a></li>
+        <li><a href="fail-2026-01-07T161110-0600-Sentencia-Priv-Definitiva.html">✗ 2026 - 01 - 07T161110 - 0600 - Sentencia - Priv - Definitiva</a></li>
+        <li><a href="fail-2026-01-07T161130-0600-Sentencia-Segunda-Priv-Instancia.html">✗ 2026 - 01 - 07T161130 - 0600 - Sentencia - Segunda - Priv - Instancia</a></li>
+        <li><a href="fail-2026-01-07T161238-0600-Sentencia-Priv-Interlocutoria-Anexos.html">✗ 2026 - 01 - 07T161238 - 0600 - Sentencia - Priv - Interlocutoria - Anexos</a></li>
+        <li><a href="fail-Convenio-Boletin.html">✗ Convenio - Boletin</a></li>
+        <li><a href="fail-Sentencia-Priv-Interlocutoria.html">✗ Sentencia - Priv - Interlocutoria</a></li>
+        <li><a href="fail-Sentencia-Priv-Interlocutoria_001.html">✗ Sentencia - Priv - Interlocutoria 001</a></li>
+        <li><a href="pass-2026-01-07T124549-0600-006_CreaProyectosEnvio.html">✓ 2026 - 01 - 07T124549 - 0600 - 006 CreaProyectosEnvio</a></li>
+        <li><a href="pass-2026-01-07T124745-0600-TR_DemandaInicial.html">✓ 2026 - 01 - 07T124745 - 0600 - TR DemandaInicial</a></li>
+        <li><a href="pass-2026-01-07T124844-0600-AD_Promocion.html">✓ 2026 - 01 - 07T124844 - 0600 - AD Promocion</a></li>
+        <li><a href="pass-2026-01-07T131640-0600-MISEXP_FindCandidateTestData.html">✓ 2026 - 01 - 07T131640 - 0600 - MISEXP FindCandidateTestData</a></li>
+        <li><a href="pass-2026-01-07T141759-0600-EXP_AB_Interno.html">✓ 2026 - 01 - 07T141759 - 0600 - EXP AB Interno</a></li>
+        <li><a href="pass-2026-01-07T143445-0600-EXPxREC_RecibirExpedienteTurnado.html">✓ 2026 - 01 - 07T143445 - 0600 - EXPxREC RecibirExpedienteTurnado</a></li>
+        <li><a href="pass-2026-01-07T145059-0600-EXP_AB_Interno.html">✓ 2026 - 01 - 07T145059 - 0600 - EXP AB Interno</a></li>
+        <li><a href="pass-2026-01-07T145251-0600-EXPxREC_RecibirExpedienteTurnado.html">✓ 2026 - 01 - 07T145251 - 0600 - EXPxREC RecibirExpedienteTurnado</a></li>
+        <li><a href="pass-2026-01-07T145450-0600-EXP_AB_Externo.html">✓ 2026 - 01 - 07T145450 - 0600 - EXP AB Externo</a></li>
+        <li><a href="pass-2026-01-07T154425-0600-MISEXP_FindCandidateTestData.html">✓ 2026 - 01 - 07T154425 - 0600 - MISEXP FindCandidateTestData</a></li>
+        <li><a href="pass-2026-01-07T155234-0600-AD_Promocion.html">✓ 2026 - 01 - 07T155234 - 0600 - AD Promocion</a></li>
+        <li><a href="pass-2026-01-07T155350-0600-Promocion-Anexos.html">✓ 2026 - 01 - 07T155350 - 0600 - Promocion - Anexos</a></li>
+        <li><a href="pass-2026-01-07T161303-0600-Sentencia-Publica.html">✓ 2026 - 01 - 07T161303 - 0600 - Sentencia - Publica</a></li>
+        <li><a href="pass-2026-01-07T161335-0600-Sentencia-Publica-Boletin.html">✓ 2026 - 01 - 07T161335 - 0600 - Sentencia - Publica - Boletin</a></li>
+    </ol>
+</body>
+</html>

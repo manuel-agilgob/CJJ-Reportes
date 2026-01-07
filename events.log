@@ -1,0 +1,475 @@
+PROYECTOS DE ENVÍO: 3
+Validando el anexo: Comprobante de domicilio del tipo documento
+Validando el anexo: Libro que no tiene nada que ver del tipo documento
+PROYECTOS DE ENVÍO: 4
+EXPEDIENTES: 10
+EXPEDIENTES: 20
+EXPEDIENTES: 30
+EXPEDIENTES: 40
+EXPEDIENTES: 50
+EXPEDIENTES: 60
+EXPEDIENTES: 70
+EXPEDIENTES: 80
+EXPEDIENTES: 90
+EXPEDIENTES: 100
+EXPEDIENTES: 110
+EXPEDIENTES: 120
+EXPEDIENTES: 130
+EXPEDIENTES: 140
+EXPEDIENTES: 150
+EXPEDIENTES: 160
+EXPEDIENTES: 170
+EXPEDIENTES: 180
+EXPEDIENTES: 190
+EXPEDIENTES: 196
+Validando el anexo: Comprobante de domicilio del tipo documento
+Validando el anexo: Libro que no tiene nada que ver del tipo documento
+RESPUESTA A POST execute_stage {"status":true,"code":200,"data":{"stage":9437,"next_url":null,"previous_url":"https://nilo.agilgob.com:8383/api/v1/process_stage/9437/0?token=12345678","method":null,"form":[{"id":"","form_id":"","name":"este_es_el_titulo","label":"<p style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff; text-align: center;\">&nbsp;</p>\r\n<p style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff; text-align: center;\"><span style=\"font-size: 12pt;\"><strong>ACUSE DE ENV&Iacute;O DE ESCRITO ELECTR&Oacute;NICO</strong></span></p>\r\n<p style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff; text-align: center;\">&nbsp;</p>\r\n<p style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff; text-align: left;\"><span style=\"font-size: 12pt;\"><strong>Estimado Ciudadano:</strong>&nbsp;Se te ha hecho llegar una notificaci&oacute;n a tu correo electr&oacute;nico con el acuse de escrito electr&oacute;nico. Favor de revisar tu bandeja de correo.</span></p>\r\n<p style=\"color: #222222; font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: #ffffff; text-align: left;\"><span style=\"font-size: 12pt;\">Para que se env&iacute;e el correo es necesario que dar clic en el bot&oacute;n de \"Confirmar\"</span></p>\r\n<p>&nbsp;</p>","contextual_help":null,"block_position":null,"position_x":0,"position_y":0,"width":12,"height":5,"type":"title","created_at":"2019-06-25 16:22:53","updated_at":"2019-06-25 16:22:59","value":"","visibility":{"status":true}}]}}
+RESPUESTA A POST execute_stage {"status":true,"code":200,"data":{"error":false,"message":"El trámite ha sido finalizado"}}
+EXPEDIENTES: 10
+EXPEDIENTES: 20
+EXPEDIENTES: 30
+EXPEDIENTES: 40
+EXPEDIENTES: 50
+EXPEDIENTES: 60
+EXPEDIENTES: 70
+EXPEDIENTES: 80
+EXPEDIENTES: 90
+EXPEDIENTES: 100
+EXPEDIENTES: 110
+EXPEDIENTES: 120
+EXPEDIENTES: 130
+EXPEDIENTES: 140
+EXPEDIENTES: 150
+EXPEDIENTES: 160
+EXPEDIENTES: 170
+EXPEDIENTES: 180
+EXPEDIENTES: 190
+EXPEDIENTES: 197
+Nuevo expediente creado: {"id":4929,"expedient_number":"L1/2026","user_id":5469,"updated_at":"2026-01-07 12:47:24","created_at":"2026-01-07 12:47:18","actor_regime":"fisica","actor_business_name":"","actor_name":"MANUELMANUEL","actor_firstname":"VALDEZVALDEZ","actor_secondname":"VERDUZCOTESTING","defendant_regime":"fisica","defendant_business_name":"","defendant_name":"DEMANDADO UNO","defendant_firstname":"DEMANDADO","defendant_secondname":"DEMANDADO","kind_judgment":"DE - Dependencia económica","via":"24 - Juicio Civil Sumario","released":false,"via_id":24,"kind_judgment_id":41,"external":false,"government_book_id":null,"lawyer_defendant_name":"","lawyer_defendant_firstname":"","lawyer_defendant_secondname":"","lawyer_actor_name":"ABOGADO UNO","lawyer_actor_firstname":"ABOGADO","lawyer_actor_secondname":"ABOGADO","warning_flag":"green","actor_email":"manuel@agilgob.com","defendant_email":"demandado01.purple815@aleeas.com","lawyer_actor_email":"","lawyer_defendant_email":"","matter":null,"judicial_party":"Partido Testing SecAcu","court":"Juzgado Pruebas Secretario Acuerdos","is_archived":false}
+📂 Buscando expediente
+https://nilo.agilgob.com:8085/expedient_details/4929
+� Iniciando ingreso de promoción
+🔐 Cargando firma electrónica
+✍️ Firmando promoción
+✅ Promoción ingresada exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+� Iniciando ingreso de promoción
+🔐 Cargando firma electrónica
+📎 Agregando 6 anexo(s)
+✍️ Firmando promoción
+✅ Promoción ingresada exitosamente
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/8/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/9/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/10/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/11/2026
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Oficio
+📝 Configurando tipo: Oficio
+🔐 Cargando firma electrónica
+✍️ Firmando Oficio
+✅ Oficio ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Acta de diligencia
+📝 Configurando tipo: Acta de diligencia
+🔐 Cargando firma electrónica
+✍️ Firmando Acta de diligencia
+✅ Acta de diligencia ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Demanda de amparo
+📝 Configurando tipo: Demanda de amparo
+🔐 Cargando firma electrónica
+✍️ Firmando Demanda de amparo
+✅ Demanda de amparo ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Citatorio
+📝 Configurando tipo: Citatorio
+🔐 Cargando firma electrónica
+✍️ Firmando Citatorio
+✅ Citatorio ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Constancia
+📝 Configurando tipo: Constancia
+🔐 Cargando firma electrónica
+✍️ Firmando Constancia
+✅ Constancia ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Constancia de celebración de audiencia
+📝 Configurando tipo: Constancia de celebración de audiencia
+🔐 Cargando firma electrónica
+✍️ Firmando Constancia de celebración de audiencia
+✅ Constancia de celebración de audiencia ingresado exitosamente
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/8/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/9/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/10/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/11/2026
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🤝 Iniciando ingreso de convenio
+📝 Configurando tipo: Convenio
+🤝 Iniciando ingreso de convenio
+📝 Configurando tipo: Convenio
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🤝 Iniciando ingreso de convenio
+📝 Configurando tipo: Convenio
+🤝 Iniciando ingreso de convenio
+📝 Configurando tipo: Convenio
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🏛️ Iniciando ingreso de audiencia
+📝 Configurando tipo: Audiencia
+🏛️ Iniciando ingreso de audiencia
+📝 Configurando tipo: Audiencia
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🏛️ Iniciando ingreso de audiencia
+📝 Configurando tipo: Audiencia
+🏛️ Iniciando ingreso de audiencia
+📝 Configurando tipo: Audiencia
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📜 Iniciando ingreso de certificación
+📝 Configurando tipo: Certificación
+📜 Iniciando ingreso de certificación
+📝 Configurando tipo: Certificación
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📜 Iniciando ingreso de certificación
+📝 Configurando tipo: Certificación
+📜 Iniciando ingreso de certificación
+📝 Configurando tipo: Certificación
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+⚖️ Iniciando ingreso de sentencia privada
+📝 Configurando tipo: Sentencia - Versión privada
+🔐 Cargando firma electrónica
+✍️ Firmando sentencia privada
+⚖️ Iniciando ingreso de sentencia privada
+📝 Configurando tipo: Sentencia - Versión privada
+🔐 Cargando firma electrónica
+✍️ Firmando sentencia privada
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+⚖️ Iniciando ingreso de sentencia pública
+📝 Configurando tipo: Sentencia - Versión pública
+💾 Guardando sentencia pública
+✅ Sentencia pública ingresada exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+⚖️ Iniciando ingreso de sentencia pública
+📝 Configurando tipo: Sentencia - Versión pública
+📰 Configurando publicación en boletín
+Fecha seleccionada: 1/7/2026
+💾 Guardando sentencia pública
+✅ Sentencia pública ingresada exitosamente
+EXPEDIENTES acumulados: 10/160
+EXPEDIENTES acumulados: 20/160
+EXPEDIENTES acumulados: 30/160
+EXPEDIENTES acumulados: 40/160
+EXPEDIENTES acumulados: 50/160
+EXPEDIENTES acumulados: 60/160
+EXPEDIENTES acumulados: 70/160
+EXPEDIENTES acumulados: 80/160
+EXPEDIENTES acumulados: 90/160
+EXPEDIENTES acumulados: 100/160
+EXPEDIENTES acumulados: 110/160
+EXPEDIENTES acumulados: 120/160
+EXPEDIENTES acumulados: 130/160
+EXPEDIENTES acumulados: 140/160
+EXPEDIENTES acumulados: 150/160
+EXPEDIENTES acumulados: 160/160
+EXPEDIENTES FINAL: 160
+EXPEDIENTES FILTRADOS: 141
+EXPEDIENTES ORDENADOS: 160
+Expediente seleccionado: 4193
+Expediente final elegido: 4193
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Eliminando delitos del multiselect
+Escapando captura de ID ya que se encontró en testData.json
+Eliminando delitos del multiselect
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Eliminando delitos del multiselect
+Escapando captura de ID ya que se encontró en testData.json
+Eliminando delitos del multiselect
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Eliminando delitos del multiselect
+Escapando captura de ID ya que se encontró en testData.json
+Eliminando delitos del multiselect
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Eliminando delitos del multiselect
+Escapando captura de ID ya que se encontró en testData.json
+Eliminando delitos del multiselect
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+**Verificando las partes del expediente...**
+**Verificando parte con email: manuel@agilgob.com**
+**Verificando parte con email: abogado_acuerdos.subfloor157@simplelogin.com**
+**Verificando parte con email: demandado01.purple815@aleeas.com**
+**Verificando las partes del expediente...**
+**Verificando parte con email: manuel@agilgob.com**
+**Verificando parte con email: abogado_acuerdos.subfloor157@simplelogin.com**
+**Verificando parte con email: demandado01.purple815@aleeas.com**
+[object Object]
+:contains("L84/2025")
+**Verificando las partes del expediente...**
+**Verificando parte con email: manuel@agilgob.com**
+**Verificando parte con email: abogado_acuerdos.subfloor157@simplelogin.com**
+**Verificando parte con email: demandado01.purple815@aleeas.com**
+[object Object]
+:contains("L84/2025")
+:contains("L84/2025")
+**Verificando las partes del expediente...**
+**Verificando parte con email: manuel@agilgob.com**
+**Verificando parte con email: abogado_acuerdos.subfloor157@simplelogin.com**
+**Verificando parte con email: demandado01.purple815@aleeas.com**
+[object Object]
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🤝 Iniciando ingreso de convenio
+🤝 Iniciando ingreso de convenio
+EXPEDIENTES acumulados: 10/160
+EXPEDIENTES acumulados: 20/160
+EXPEDIENTES acumulados: 30/160
+EXPEDIENTES acumulados: 40/160
+EXPEDIENTES acumulados: 50/160
+EXPEDIENTES acumulados: 60/160
+EXPEDIENTES acumulados: 70/160
+EXPEDIENTES acumulados: 80/160
+EXPEDIENTES acumulados: 90/160
+EXPEDIENTES acumulados: 100/160
+EXPEDIENTES acumulados: 110/160
+EXPEDIENTES acumulados: 120/160
+EXPEDIENTES acumulados: 130/160
+EXPEDIENTES acumulados: 140/160
+EXPEDIENTES acumulados: 150/160
+EXPEDIENTES acumulados: 160/160
+EXPEDIENTES FINAL: 160
+EXPEDIENTES FILTRADOS: 140
+EXPEDIENTES ORDENADOS: 160
+Expediente seleccionado: 3972
+Expediente final elegido: 3972
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+[object Object]
+[object Object]
+El permiso ya está habilitado para 
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+� Iniciando ingreso de promoción
+🔐 Cargando firma electrónica
+✍️ Firmando promoción
+✅ Promoción ingresada exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+� Iniciando ingreso de promoción
+🔐 Cargando firma electrónica
+📎 Agregando 6 anexo(s)
+✍️ Firmando promoción
+✅ Promoción ingresada exitosamente
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/8/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/9/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/10/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/11/2026
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Oficio
+📝 Configurando tipo: Oficio
+🔐 Cargando firma electrónica
+✍️ Firmando Oficio
+✅ Oficio ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Acta de diligencia
+📝 Configurando tipo: Acta de diligencia
+🔐 Cargando firma electrónica
+✍️ Firmando Acta de diligencia
+✅ Acta de diligencia ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Demanda de amparo
+📝 Configurando tipo: Demanda de amparo
+🔐 Cargando firma electrónica
+✍️ Firmando Demanda de amparo
+✅ Demanda de amparo ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Citatorio
+📝 Configurando tipo: Citatorio
+🔐 Cargando firma electrónica
+✍️ Firmando Citatorio
+✅ Citatorio ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Constancia
+📝 Configurando tipo: Constancia
+🔐 Cargando firma electrónica
+✍️ Firmando Constancia
+✅ Constancia ingresado exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📄 Iniciando ingreso de Constancia de celebración de audiencia
+📝 Configurando tipo: Constancia de celebración de audiencia
+🔐 Cargando firma electrónica
+✍️ Firmando Constancia de celebración de audiencia
+✅ Constancia de celebración de audiencia ingresado exitosamente
+[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+El permiso ya está habilitado para 
+Escapando captura de ID ya que se encontró en testData.json
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/8/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/9/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/10/2026
+Escapando captura de ID ya que se encontró en testData.json
+Fecha Modificada: 1/11/2026
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🤝 Iniciando ingreso de convenio
+📝 Configurando tipo: Convenio
+🤝 Iniciando ingreso de convenio
+📝 Configurando tipo: Convenio
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🤝 Iniciando ingreso de convenio
+📝 Configurando tipo: Convenio
+🤝 Iniciando ingreso de convenio
+📝 Configurando tipo: Convenio
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🏛️ Iniciando ingreso de audiencia
+📝 Configurando tipo: Audiencia
+🏛️ Iniciando ingreso de audiencia
+📝 Configurando tipo: Audiencia
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+🏛️ Iniciando ingreso de audiencia
+📝 Configurando tipo: Audiencia
+🏛️ Iniciando ingreso de audiencia
+📝 Configurando tipo: Audiencia
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📜 Iniciando ingreso de certificación
+📝 Configurando tipo: Certificación
+📜 Iniciando ingreso de certificación
+📝 Configurando tipo: Certificación
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📜 Iniciando ingreso de certificación
+📝 Configurando tipo: Certificación
+📜 Iniciando ingreso de certificación
+📝 Configurando tipo: Certificación
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+⚖️ Iniciando ingreso de sentencia privada
+📝 Configurando tipo: Sentencia - Versión privada
+🔐 Cargando firma electrónica
+✍️ Firmando sentencia privada
+⚖️ Iniciando ingreso de sentencia privada
+📝 Configurando tipo: Sentencia - Versión privada
+🔐 Cargando firma electrónica
+✍️ Firmando sentencia privada
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+⚖️ Iniciando ingreso de sentencia pública
+📝 Configurando tipo: Sentencia - Versión pública
+💾 Guardando sentencia pública
+✅ Sentencia pública ingresada exitosamente
+📂 Buscando expediente
+Escapando captura de ID ya que se encontró en testData.json
+⚖️ Iniciando ingreso de sentencia pública
+📝 Configurando tipo: Sentencia - Versión pública
+📰 Configurando publicación en boletín
+Fecha seleccionada: 1/7/2026
+💾 Guardando sentencia pública
+✅ Sentencia pública ingresada exitosamente

@@ -1,0 +1,106 @@
+{
+  "expedientCreated": true,
+  "expedient": {
+    "id": 4929,
+    "expedient_number": "L1/2026",
+    "user_id": 5469,
+    "updated_at": "2026-01-07 12:47:24",
+    "created_at": "2026-01-07 12:47:18",
+    "actor_regime": "fisica",
+    "actor_business_name": "",
+    "actor_name": "MANUELMANUEL",
+    "actor_firstname": "VALDEZVALDEZ",
+    "actor_secondname": "VERDUZCOTESTING",
+    "defendant_regime": "fisica",
+    "defendant_business_name": "",
+    "defendant_name": "DEMANDADO UNO",
+    "defendant_firstname": "DEMANDADO",
+    "defendant_secondname": "DEMANDADO",
+    "kind_judgment": "DE - Dependencia económica",
+    "via": "24 - Juicio Civil Sumario",
+    "released": false,
+    "via_id": 24,
+    "kind_judgment_id": 41,
+    "external": false,
+    "government_book_id": null,
+    "lawyer_defendant_name": "",
+    "lawyer_defendant_firstname": "",
+    "lawyer_defendant_secondname": "",
+    "lawyer_actor_name": "ABOGADO UNO",
+    "lawyer_actor_firstname": "ABOGADO",
+    "lawyer_actor_secondname": "ABOGADO",
+    "warning_flag": "green",
+    "actor_email": "manuel@agilgob.com",
+    "defendant_email": "demandado01.purple815@aleeas.com",
+    "lawyer_actor_email": "",
+    "lawyer_defendant_email": "",
+    "matter": null,
+    "judicial_party": "Partido Testing SecAcu",
+    "court": "Juzgado Pruebas Secretario Acuerdos",
+    "is_archived": false
+  },
+  "ciudadano": {
+    "email": "manuel@agilgob.com",
+    "password": "12345678",
+    "archivoFirel": "assets/Firel/CACF910802HJCRBR03.pfx",
+    "passwordFirel": "Guadalupe6877"
+  },
+  "tramite": {
+    "nombre": "Juzgados Civiles, Familiares y Mercantiles en línea",
+    "partidoJudicial": "Partido Testing SecAcu",
+    "materia": "Familiar",
+    "claveTipoJuicio": "Dependencia económica",
+    "tipoVia": "Juicio Civil Sumario",
+    "regimenActor": "Fisica",
+    "representanteLegal": "Si",
+    "representante": {
+      "apellidoPaterno": "Representante",
+      "apellidoMaterno": "Representante",
+      "nombre": "Representante Uno",
+      "email": "abogado_acuerdos.subfloor157@simplelogin.com"
+    },
+    "actor": {
+      "apellidoPaterno": "Valdez",
+      "apellidoMaterno": "Testing",
+      "nombres": "Manuel",
+      "email": "manuel@agilgob.com"
+    },
+    "abogadoPatrono": "Si",
+    "abogado": {
+      "apellidoPaterno": "Abogado",
+      "apellidoMaterno": "Abogado",
+      "nombre": "Abogado Uno",
+      "email": "abogado_acuerdos.subfloor157@simplelogin.com"
+    },
+    "agregarDemandado": "Si",
+    "demandado": {
+      "regimen": "Fisica",
+      "apellidoPaterno": "Demandado",
+      "apellidoMaterno": "Demandado",
+      "nombre": "Demandado Uno",
+      "email": "demandado01.purple815@aleeas.com"
+    },
+    "documentoDemanda": "assets/documento.pdf",
+    "anexos": [
+      {
+        "tipoDocumento": "Copia simple",
+        "etiqueta": "INE",
+        "rutaDocumento": "assets/INE-demo.png"
+      },
+      {
+        "tipoDocumento": "Copia certificada",
+        "etiqueta": "Comprobante de domicilio",
+        "rutaDocumento": "assets/documento.pdf"
+      },
+      {
+        "tipoDocumento": "Original",
+        "etiqueta": "Libro que no tiene nada que ver",
+        "rutaDocumento": "assets/ACUERDOS.pdf"
+      }
+    ]
+  },
+  "environment": {
+    "funcionarioURL": "https://nilo.agilgob.com:8085/",
+    "ciudadanoURL": "https://nilo.agilgob.com:8084/"
+  }
+}

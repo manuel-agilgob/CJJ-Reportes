@@ -1,0 +1,109 @@
+{
+  "id": 3972,
+  "expedient_number": "L38/2025",
+  "user_id": 5469,
+  "updated_at": "2025-04-10 15:17:45",
+  "actor_regime": "fisica",
+  "actor_business_name": "",
+  "actor_name": "JOSE MANUEL",
+  "actor_firstname": "VALDEZ",
+  "actor_secondname": "VERDUZCO",
+  "defendant_regime": "fisica",
+  "defendant_business_name": "",
+  "defendant_name": "DEMANDADO UNO",
+  "defendant_firstname": "DEMANDADO",
+  "defendant_secondname": "DEMANDADO",
+  "kind_judgment": "DE - Dependencia económica",
+  "via": "24 - Juicio Civil Sumario",
+  "released": false,
+  "external": false,
+  "via_id": 24,
+  "kind_judgment_id": 41,
+  "government_book_id": 11221,
+  "lawyer_defendant_name": "",
+  "lawyer_defendant_firstname": "",
+  "lawyer_defendant_secondname": "",
+  "lawyer_actor_name": "ABOGADO UNO",
+  "lawyer_actor_firstname": "ABOGADO",
+  "lawyer_actor_secondname": "ABOGADO",
+  "warning_flag": "red",
+  "expirations": [
+    {
+      "filename": "demanda_inicial6725.pdf",
+      "created_at": "2025-04-10T21:17:45.000000Z",
+      "expirations": [
+        {
+          "id": 7295,
+          "name": "demanda_inicial",
+          "expired_at": "2025-09-25T23:59:59",
+          "alias": "demanda_inicial",
+          "warning_flag": "red"
+        }
+      ]
+    }
+  ],
+  "actor_email": "manuel@agilgob.com",
+  "defendant_email": "demandado01.purple815@aleeas.com",
+  "lawyer_actor_email": "abogado_acuerdos.subfloor157@simplelogin.com",
+  "lawyer_defendant_email": "",
+  "matter": "Familiar",
+  "court": "",
+  "party": "",
+  "expedientParts": [
+    {
+      "id": 8851,
+      "electronic_expedient_id": 3972,
+      "party_type": "actor",
+      "party_data": {
+        "email": "manuel@agilgob.com",
+        "names": "JOSE MANUEL",
+        "regime": "fisica",
+        "business_name": "",
+        "maternal_surname": "VERDUZCO",
+        "paternal_surname": "VALDEZ",
+        "partClasification": null
+      },
+      "created_at": "2025-04-10T21:17:45.000000Z",
+      "updated_at": "2025-04-10T21:17:45.000000Z",
+      "show_cover": true
+    },
+    {
+      "id": 8852,
+      "electronic_expedient_id": 3972,
+      "party_type": "lawyer_actor",
+      "party_data": {
+        "email": "abogado_acuerdos.subfloor157@simplelogin.com",
+        "names": "ABOGADO UNO",
+        "maternal_surname": "ABOGADO",
+        "paternal_surname": "ABOGADO",
+        "partClasification": null
+      },
+      "created_at": "2025-04-10T21:17:45.000000Z",
+      "updated_at": "2025-04-10T21:17:45.000000Z",
+      "show_cover": false
+    },
+    {
+      "id": 8853,
+      "electronic_expedient_id": 3972,
+      "party_type": "defendant",
+      "party_data": {
+        "email": "demandado01.purple815@aleeas.com",
+        "names": "DEMANDADO UNO",
+        "regime": "fisica",
+        "business_name": "",
+        "maternal_surname": "DEMANDADO",
+        "paternal_surname": "DEMANDADO",
+        "partClasification": null
+      },
+      "created_at": "2025-04-10T21:17:45.000000Z",
+      "updated_at": "2025-04-10T21:17:45.000000Z",
+      "show_cover": true
+    }
+  ],
+  "responsible": "Yo",
+  "tramite": {
+    "url": "https://nilo.agilgob.com:8085/expedient_details/3972"
+  },
+  "expedientFound": true,
+  "expedientCreated": true
+}
